@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Login Simples</title>
 </head>
 <body>
     <main>
         <section class="login">
             <header>
-                <img src="/img/logo.png" alt="">
+                <img class="logo" src="/img/logo.png" alt="">
             </header>
             <form>
                 <input type="text" placeholder="Telefone, nome de usuário ou email">
@@ -18,15 +22,30 @@
                 <input type="password" placeholder="Senha">
                 <br>
                 <button>Entrar</button>
-                <p>__________ <span>OU</span> __________</p>
-                <img src="/img/facebook.png" alt="" width="20px" height="20px">
-                <a href="https://facebook.com/">Entrar com Facebook</a>
-                <p>Esqueceu a senha?</p>
             </form>
+            <div class="ou-div">
+                <p class="line">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                <p class="ou-line">OU</p>
+                <p class="line">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                <br>
+            </div>
+            <nav>
+            <img class="facebook" src="/img/facebook.png" alt="">
+            <a href="https://facebook.com/">Entrar com o Facebook</a>
+            <br>
+            <a href="#">Esqueceu a senha?</a>
+            </nav>
         </section>
         <section class="cadastro">
             <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
         </section>
     </main>
+    <footer>
+        <p>Obtenha o aplicativo.</p><br>
+        <nav>
+        <a href="#"><img class="store" src="/img/appstore.png" alt="Baixar na App Store"></a>
+        <a href="#"><img class="store" src="/img/playstore.png" alt="Baixar no Google Play"></a>
+    </nav>
+    </footer>
 </body>
 </html>
